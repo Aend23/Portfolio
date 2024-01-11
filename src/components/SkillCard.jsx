@@ -2,10 +2,9 @@
 
 import React from "react";
 import { skills } from "../utils/data";
-import "./styles/skill.css";
+import "./styles/Skill.css";
 
 export default function SkillCard() {
-  console.log(skills);
 
   return (
     <div id="skills" className="Container">
