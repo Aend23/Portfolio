@@ -50,6 +50,7 @@ section{
 .home-img img{
  width: 35vh;
  animation: floatImage 4s ease-in-out infinite;
+ border-radius: 50%;
 }
 
 @keyframes floatImage {

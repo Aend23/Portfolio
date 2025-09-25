@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaSquareGithub, FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
 import { TbBrandGmail } from "react-icons/tb";
-import image from "../assets/imageAi.avif";
+import image from "../assets/selfImage.avif";
 import ScrollReveal from "scrollreveal";
 import cv from "../assets/Ankush_CV .pdf";
 
@@ -14,19 +14,19 @@ export default function Home() {
     const textLoad = () => {
       setTimeout(() => {
         if (mulText) {
-          mulText.textContent = "{ Frontend Developer }";
+          mulText.textContent = "{ Developer }";
         }
       }, 0);
 
       setTimeout(() => {
         if (mulText) {
-          mulText.textContent = "{ superhero }";
+          mulText.textContent = "{ Engineer }";
         }
       }, 4000);
 
       setTimeout(() => {
         if (mulText) {
-          mulText.textContent = "{ endeavor }";
+          mulText.textContent = "{ Learner }";
         }
       }, 8000);
     };
